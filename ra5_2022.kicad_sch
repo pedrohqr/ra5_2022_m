@@ -1,0 +1,67 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5cbb1e83-2d68-46fe-9857-942ec50591ae")
+	(paper "A4")
+	(title_block
+		(title "RA 5 2022 M")
+		(date "2026-07-20")
+		(rev "A")
+		(company "Raptor")
+		(comment 1 "Author: Pedro Henrique de Queiroz Ramos")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 48.26)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10")
+		(property "Sheetname" "Power Source"
+			(at 50.8 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_source.kicad_sch"
+			(at 50.8 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

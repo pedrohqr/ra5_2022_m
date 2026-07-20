@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ra5_2022")(type "KiCad")(uri "${KIPRJMOD}/libraries/ra5_2022.kicad_sym")(options "")(descr "Componentes importados via easyeda2kicad para o projeto ra5_2022"))
+)

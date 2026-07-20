@@ -1,0 +1,16 @@
+# Cache local do easyeda2kicad (regeravel, nao precisa versionar)
+.easyeda_cache/
+
+# Historico local do VS Code (extensao Local History)
+.history/
+
+# Backups e arquivos temporarios do KiCad
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.tmp
+
+# A pasta libraries/ (componentes importados) DEVE ser versionada.
