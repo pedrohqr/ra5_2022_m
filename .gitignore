@@ -13,4 +13,10 @@ fp-info-cache
 _autosave-*
 *.tmp
 
+# Arquivos de lock do KiCad (criados enquanto o projeto esta aberto)
+~*.lck
+
+# Snapshots de backup/restore locais (ex: gerados por ferramentas/hooks)
+_restore_backup_*/
+
 # A pasta libraries/ (componentes importados) DEVE ser versionada.
