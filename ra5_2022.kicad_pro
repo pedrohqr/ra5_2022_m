@@ -688,6 +688,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -821,7 +822,7 @@
         "uuid": "5cbb1e83-2d68-46fe-9857-942ec50591ae"
       }
     ],
-    "used_designators": "SW3,P1,J1-3,CN1,#PWR1-19,#PWR21,#PWR34-79,Y1,D1-3,D6-8,C1-7,C9-29,Q1,U1-3,U5-10,R1-4,R8-68,L1",
+    "used_designators": "P1,SW3,J1-3,Y1,CN1,D1-3,D6-8,#PWR1-19,#PWR21,#PWR34-79,C1-7,C9-29,Q1,U1-3,U5-10,R1-4,R8-68,L1",
     "variants": []
   },
   "sheets": [

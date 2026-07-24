@@ -1063,7 +1063,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*4.55x10.3mm*P1.27mm*")
-		(path "/452b8f5a-797d-4028-91e0-40fe10fe98ae/839324b2-320c-43fe-9a3f-19695f249ce2/4b140aeb-320f-454b-b927-f16e2eafe791")
+		(path "/452b8f5a-797d-4028-91e0-40fe10fe98ae/839324b2-320c-43fe-9a3f-19695f249ce2/5e5239ce-e1c6-4399-893e-5657b566c8d3")
 		(sheetname "/MCU/M90E32AS/")
 		(sheetfile "m90e32as.kicad_sch")
 		(units
@@ -9649,25 +9649,25 @@
 			)
 		)
 	)
-	(footprint "ra5_2022:CONN-TH_6P-P3.50x2.50_MAX_MX15EDGRHC-3.5-2x03P"
+	(footprint "ra5_2022:MX15EDGRHC-3.5-2x03P"
 		(layer "F.Cu")
 		(uuid "7ae67008-ca2c-474b-a547-5a7c187c6e75")
-		(at 184.775 102.075 90)
-		(descr "MAX (Cixi Maixu) MX15EDGRHC-3.5-2*03P-BK01-Cu-A, 6 position board-side header socket, right angle, THT, 3.5mm pitch (columns), 2.5mm row pitch, drill 1.4mm. Pad layout hand-derived from single-page mechanical datasheet (no explicit pinout diagram) - VERIFY against physical part/pin1 marking before fabrication. LCSC C49142489")
-		(tags "THT Terminal Block MAX MX15EDGRHC-3.5 2x03P pitch 3.5mm row 2.5mm drill 1.4mm C49142489")
+		(at 183.2 100 90)
 		(property "Reference" "J2"
-			(at 0 -4.8 90)
+			(at 0 -8.3 90)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0108c59c-4771-4e8d-bf49-0244013d3656")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "MX15EDGRHC-3.5-2x03P"
-			(at 0 4.8 90)
+			(at 0 -10.3 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4e51f291-ff6b-4042-ae66-ab358aea50e7")
 			(effects
@@ -9679,34 +9679,26 @@
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3e53538744bd12542cc29a45b22c9fbc.pdf?productCode=C49142489"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38e2dcbd-cee5-4687-a908-32445085f925")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f3e1729-635a-4f6a-bc57-9bfc19f6a33c")
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C49142489"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f55c243-9c8e-4dcc-a02d-1b4ae2d9d875")
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9716,7 +9708,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1515e3ed-b1e1-4575-834a-b5388bbebd21")
+			(uuid "2871caa3-d1cd-476a-b450-58a4158d966a")
 			(effects
 				(font
 					(size 1 1)
@@ -9729,7 +9721,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e6860cc-1fcd-4994-9d52-ec6fdc69fa59")
+			(uuid "accc1906-ae58-44ad-b254-672b99677088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C49142489"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f8d9834-8055-45d1-8039-63f539dcc6de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "605cc0dd-42fe-47de-88bd-f0b6d8903c4b")
 			(effects
 				(font
 					(size 1 1)
@@ -9748,88 +9766,20 @@
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 5.65 -4)
-			(end 5.65 4)
+		(fp_rect
+			(start -5.65 -5.8)
+			(end 5.65 5.8)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "9b46fc1b-408f-457f-85fa-cf64f97d7e84")
-		)
-		(fp_line
-			(start -5.65 -4)
-			(end 5.65 -4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "af554c37-cc66-4c14-a8ba-b01e87dae860")
-		)
-		(fp_line
-			(start 5.65 4)
-			(end -5.65 4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59f15152-b50b-4258-9c30-51d130c0e6d5")
-		)
-		(fp_line
-			(start -5.65 4)
-			(end -5.65 -4)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7c2ca35a-3126-4e03-a38a-6c5c56b73b6a")
-		)
-		(fp_line
-			(start 5.9 -4.25)
-			(end 5.9 4.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "79e454e6-5a6e-4d0f-87b7-58cbe45bf025")
-		)
-		(fp_line
-			(start -5.9 -4.25)
-			(end 5.9 -4.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8fc63daa-89bf-4fbc-bc31-9b5e9b5d6d2a")
-		)
-		(fp_line
-			(start 5.9 4.25)
-			(end -5.9 4.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "556256d5-e614-46fd-8463-f16f125055cb")
-		)
-		(fp_line
-			(start -5.9 4.25)
-			(end -5.9 -4.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d89ce9b5-ce4f-43e2-8c4e-76a3f4ec45eb")
+			(uuid "ceee9a7e-ac32-4c8f-88a8-47815ef6f532")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 -6.8 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2a27e903-d754-43e8-970e-4376bc50c887")
 			(effects
@@ -9839,70 +9789,76 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
-			(at -3.5 -1.25 90)
-			(size 2.3 2.3)
+		(pad "1" thru_hole circle
+			(at -3.5 -4.7 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IR+")
 			(pinfunction "1_1")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "937a2680-e473-41cc-ad91-4ed2a11c5cb0")
 		)
 		(pad "2" thru_hole circle
-			(at 0 -1.25 90)
-			(size 2.3 2.3)
+			(at -3.5 -2.2 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IR-")
 			(pinfunction "2_2")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "27de8549-d053-4156-937c-60811fa6afaa")
 		)
 		(pad "3" thru_hole circle
-			(at 3.5 -1.25 90)
-			(size 2.3 2.3)
+			(at 0 -4.7 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IS+")
 			(pinfunction "3_3")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "af3bc9e4-235a-4bdf-a344-959d47f00b08")
 		)
 		(pad "4" thru_hole circle
-			(at -3.5 1.25 90)
-			(size 2.3 2.3)
+			(at 0 -2.2 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IS-")
 			(pinfunction "4_4")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "8ed92b20-60dc-477f-8c08-38611a7ee528")
 		)
 		(pad "5" thru_hole circle
-			(at 0 1.25 90)
-			(size 2.3 2.3)
+			(at 3.5 -4.7 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IT+")
 			(pinfunction "5_5")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "cd4986ea-4296-432d-a138-596cd9203368")
 		)
 		(pad "6" thru_hole circle
-			(at 3.5 1.25 90)
-			(size 2.3 2.3)
+			(at 3.5 -2.2 90)
+			(size 2 2)
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/MCU/M90E32AS/IT-")
 			(pinfunction "6_6")
 			(pintype "unspecified")
+			(thermal_bridge_angle 90)
 			(uuid "9c81517c-5aa1-4896-8903-845352345dcc")
 		)
 		(embedded_fonts no)
@@ -11862,7 +11818,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "SH" "B1" "B12" "A1" "A12" "B9" "A9" "B4" "A4" "A5" "B5" "A7" "B7"
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
 					"A6" "B6" "B10" "B11" "A3" "A2" "A10" "A11" "B3" "B2" "A8" "B8"
 				)
 			)
@@ -16739,8 +16695,8 @@
 			(unit
 				(name "A")
 				(pins "8" "12" "13" "5" "6" "9" "10" "15" "16" "22" "23" "32" "33" "34"
-					"35" "3" "36" "37" "38" "39" "40" "41" "47" "42" "43" "44" "45" "46"
-					"2" "48" "49" "50" "51" "52" "53" "1" "11" "14" "4" "7" "21" "31" "30"
+					"35" "3" "2" "48" "1" "11" "49" "14" "50" "51" "52" "53" "47" "36" "37"
+					"38" "39" "40" "41" "42" "43" "44" "45" "46" "4" "7" "21" "31" "30"
 					"17" "18" "19" "20" "24" "25" "26" "27" "28" "29"
 				)
 			)

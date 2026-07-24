@@ -21991,7 +21991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ra5_2022:CONN-TH_6P-P3.50x2.50_MAX_MX15EDGRHC-3.5-2x03P"
+		(property "Footprint" "ra5_2022:MX15EDGRHC-3.5-2x03P"
 			(at 96.52 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -22048,6 +22048,17 @@
 		)
 		(property "LCSC Part" "C49142489"
 			(at 96.52 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 91.44 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
