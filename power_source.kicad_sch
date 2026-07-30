@@ -7770,6 +7770,9 @@
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
 					(reference "U12")
 					(unit 1)
+					(variant
+						(name "Develop")
+					)
 				)
 			)
 		)
