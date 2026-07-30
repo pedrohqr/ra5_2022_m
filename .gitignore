@@ -20,3 +20,6 @@ _autosave-*
 _restore_backup_*/
 
 # A pasta libraries/ (componentes importados) DEVE ser versionada.
+
+# Estado local do Claude Code (worktrees, sessoes)
+.claude/

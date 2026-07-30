@@ -28,6 +28,12 @@ for id in "$@"; do
     --project-relative \
     --overwrite \
     --use-cache
+
+  # O easyeda2kicad cria o campo "LCSC Part", mas o padrao deste projeto (e o
+  # template field global do KiCad, ver "field_names" em ra5_2022.kicad_pro) e
+  # "LCSC Part #". Renomeia para nao gerar duas colunas no BOM.
+  sed -i 's/^\(\s*\)"LCSC Part"$/\1"LCSC Part #"/' "${OUTPUT_BASE}.kicad_sym"
+  sed -i 's/(property "LCSC Part" /(property "LCSC Part #" /' "${OUTPUT_BASE}.pretty"/*.kicad_mod
 done
 
 echo
