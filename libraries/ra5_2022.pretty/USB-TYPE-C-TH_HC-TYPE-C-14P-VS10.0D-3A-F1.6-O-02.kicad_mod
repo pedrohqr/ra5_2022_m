@@ -42,7 +42,7 @@
 	(fp_line (start 4.47 -1.58) (end -4.47 -1.58) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.47 -1.58) (end -4.47 1.58) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.47 1.58) (end 4.47 1.58) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/libraries/ra5_2022.3dshapes/USB-TYPE-C-TH_HC-TYPE-C-14P-VS10.0D-3A-F1.6-O-02.wrl"
+	(model "${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/USB-TYPE-C-TH_HC-TYPE-C-14P-VS10.0D-3A-F1.6-O-02.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

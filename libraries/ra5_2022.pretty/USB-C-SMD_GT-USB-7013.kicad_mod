@@ -58,7 +58,7 @@
 	(fp_line (start 4.45 5.30) (end -4.45 5.30) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.45 5.30) (end -4.45 -2.60) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.45 -2.60) (end 4.45 -2.60) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/libraries/ra5_2022.3dshapes/USB-C-SMD_GT-USB-7013.wrl"
+	(model "${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/USB-C-SMD_GT-USB-7013.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

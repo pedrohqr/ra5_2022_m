@@ -196,7 +196,7 @@
 		(uuid "76b3930e-1d6f-4785-bdaa-c35ab3ae09d8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/ra5_2022.3dshapes/CONN-TH_6P-P3.50_MX15EDGRHC-3.5-2x03P.wrl"
+	(model "${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/CONN-TH_6P-P3.50_MX15EDGRHC-3.5-2x03P.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

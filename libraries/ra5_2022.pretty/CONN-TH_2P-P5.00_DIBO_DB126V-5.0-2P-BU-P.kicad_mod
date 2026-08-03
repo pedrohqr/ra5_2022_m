@@ -40,7 +40,7 @@
 	(fp_line (start 4.92 3.70) (end -4.92 3.70) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 2.540508 2.000174) (xy 1.840459 2.700274) (xy 2.390496 2.700274) (xy 2.390496 3.300171) (xy 2.690520 3.300171) (xy 2.690520 2.700274) (xy 3.290519 2.700274) (xy 2.540508 2.000174)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(fp_poly (pts (xy -2.540000 1.999996) (xy -3.239999 2.699995) (xy -2.689987 2.699995) (xy -2.689987 3.299993) (xy -2.389988 3.299993) (xy -2.389988 2.699995) (xy -1.789989 2.699995) (xy -2.540000 1.999996)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "${KIPRJMOD}/libraries/ra5_2022.3dshapes/CONN-TH_2P-P5.00_DIBO_DB126V-5.0-2P-BU-P.step"
+	(model "${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/CONN-TH_2P-P5.00_DIBO_DB126V-5.0-2P-BU-P.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

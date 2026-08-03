@@ -27,7 +27,7 @@
 	(fp_line (start 4.28 -4.83) (end 4.28 7.43) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.28 7.43) (end -4.58 7.43) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -4.58 7.43) (end -4.58 -4.83) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/libraries/ra5_2022.3dshapes/CONN-TH_P3.50_KF250-3.5-2P-2.wrl"
+	(model "${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/CONN-TH_P3.50_KF250-3.5-2P-2.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
