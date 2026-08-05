@@ -23,9 +23,9 @@ Principais blocos presentes na placa:
 
 ## Renders da placa finalizada
 
-![Vista 1 da placa](view1.png)
+![Vista 1 da placa](view/view1.png)
 *Vista geral do lado dos componentes: soquete M.2 (`J1`), USB-C, terminais
 parafusáveis e conectores de campo nas laterais.*
 
-![Vista 2 da placa](view2.png)
+![Vista 2 da placa](view/view2.png)
 *Vista girada ~180°, mostrando o mesmo lado a partir do ângulo oposto.*
