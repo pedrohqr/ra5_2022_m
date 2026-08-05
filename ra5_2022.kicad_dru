@@ -1,0 +1,11 @@
+(version 1)
+
+# USB_90R differential pair (/MCU/USB_DP, /MCU/USB_DN, J1<->D3): the netclass
+# "clearance" (0.25mm) is meant for isolation from unrelated nets, but without
+# this rule it also governs the DP-to-DN spacing, which conflicts with the
+# 0.1mm diff_pair_gap chosen for 90R (see CLAUDE.md). This rule relaxes
+# clearance specifically between members of USB_90R to match that gap.
+(rule "usb_diffpair_internal_clearance"
+    (condition "A.NetClass == 'USB_90R' && B.NetClass == 'USB_90R'")
+    (constraint clearance (min 0.1mm))
+)
