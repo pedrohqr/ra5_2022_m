@@ -2119,7 +2119,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C7598619"
+			(property "JLCPCB Part #" "C7598619"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2320,7 +2320,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C42443428"
+			(property "JLCPCB Part #" "C42443428"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2492,7 +2492,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C475163"
+			(property "JLCPCB Part #" "C475163"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3633,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3644,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54531015.pdf?spm=wm.fly.bg.3.pdf___wm.ssy.tc.0.tz&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJYUlVSQVRbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRllfSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588884762689196032-C149504.pdf?response-content-disposition=attachment%3B%20filename%3DC149504.pdf%3B%20filename%2A%3DUTF-8%27%27C149504.pdf&x-oss-date=20260806T131918Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=0fd6777e60d7a519a0b07066a441c958ba8bd4ed7b2eff7fc92717e0996542e8"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3655,7 +3655,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "MPN" "1RC0402J0104"
+		(property "MPN" "0805W8F1003T5E"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3677,8 +3677,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C54531015"
+		(property "JLCPCB Part #" "C149504"
 			(at 76.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 76.2 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 76.2 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 76.2 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 76.2 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3827,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C191884"
+		(property "JLCPCB Part #" "C191884"
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3903,6 +3991,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 137.16 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21e1f595-8c39-4bb1-8181-3781b7487c04")
+		(property "Reference" "C41"
+			(at 140.97 110.8709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 140.97 113.4109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 138.1252 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603372271729983488-C22383768.pdf?response-content-disposition=attachment%3B%20filename%3DC22383768.pdf%3B%20filename%2A%3DUTF-8%27%27C22383768.pdf&x-oss-date=20260806T181412Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nyKYLaqKhZ3omZbVPliWUPXO1it4D%2BkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb4MwCdU4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkrHmthQytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIBfhwR6KWD5sagAE%2BpMvrbyXf7EJ38xDjC7ZFbb%2FNNH3jT9NKdcy7OmF8HF0fvvQVpLjVl4uLM8Gz4sG4lvoT%2Bh46zeQMZNMsqpuAtHA2Uz0h5bQViUiQbOKRMLC00qSDmELw6beR9vw0UOce%2Fs2g5unz%2FOQPLVpS7nlKiQZOFUXaUSIgtJ8AUmc2fSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZGb8nEwxiKrouTmeZPbNXEUs%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=5513aac3b63e3857cdfd5c1310c2b51f9395a4794c6d11ba98d2c421b6543b1f"
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 10uF 25V 4mm 5.4mm ±20% SMD,D4xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VT1E100M0405"
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22383768"
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 137.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0d7ff2-a645-49b7-a860-a451ec499286")
+		)
+		(pin "2"
+			(uuid "19a26afe-9840-4e7f-bfe8-40e9466186eb")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
+					(reference "C41")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 241.3 72.39 0)
 		(unit 1)
@@ -3925,7 +4152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1k"
+		(property "Value" "22k"
 			(at 243.84 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54530781.pdf?spm=wm.fly.bg.10.pdf___wm.ssy.ml.9-25.ent&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJYUlZQQVJWVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705997327732736-C25768.pdf?response-content-disposition=attachment%3B%20filename%3DC25768.pdf%3B%20filename%2A%3DUTF-8%27%27C25768.pdf&x-oss-date=20260806T135510Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4adbec8ea901052013fa6082587b99653324f30758c762a3c6563f7c9b51b507"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3958,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-55℃~+155℃ 22kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3969,7 +4196,7 @@
 				)
 			)
 		)
-		(property "MPN" "1RC0402F2212"
+		(property "MPN" "0402WGF2202TCE"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3980,7 +4207,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C54530781"
+		(property "JLCPCB Part #" "C25768"
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4009,7 +4280,7 @@
 							(value "https://www.lcsc.com/datasheet/C324816.pdf?spm=wm.fly.bg.17.pdf___wm.ssy.tc.0.tz&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlVfUFZURVJfVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D")
 						)
 						(field
-							(name "LCSC Part #")
+							(name "JLCPCB Part #")
 							(value "C324816")
 						)
 						(field
@@ -4095,236 +4366,6 @@
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
 					(reference "#PWR010")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 85.09 69.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2dfd7904-95cd-4be4-9e0c-33ebae9373eb")
-		(property "Reference" "R2"
-			(at 82.55 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 82.55 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54531015.pdf?spm=wm.fly.bg.3.pdf___wm.ssy.tc.0.tz&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJYUlVSQVRbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRllfSQwSGg0%3D"
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1RC0402J0104"
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C54531015"
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e387cea-169d-4b3b-99bf-082fcb959ada")
-		)
-		(pin "2"
-			(uuid "20dc0f5b-ce84-4dd5-b4e4-7e604125948f")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
-					(reference "R2")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 219.71 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc2be81-bd63-40aa-8e14-405386571a8b")
-		(property "Reference" "C7"
-			(at 223.52 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 223.52 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 220.6752 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C309062.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlVfVlNfT1VbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
-			(at 219.71 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL32B226KAJNNNE"
-			(at 219.71 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C309062"
-			(at 219.71 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f39f64e-36da-4a91-a7fc-755dc7519a61")
-		)
-		(pin "2"
-			(uuid "f3ba8b22-14f4-43ac-aa02-53a44d61de98")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
-					(reference "C7")
-					(unit 1)
-					(variant
-						(name "Develop")
-						(field
-							(name "Datasheet")
-							(value "https://www.lcsc.com/datasheet/C6119968.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlVfX1dUQ1FbUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D")
-						)
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_1210_3225Metric")
-						)
-						(field
-							(name "LCSC Part #")
-							(value "C6119968")
-						)
-						(field
-							(name "MPN")
-							(value "CGA1206X5R226M250NT")
-						)
-					)
 				)
 			)
 		)
@@ -4540,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 0.75 1 18~22 2 2P 3.5mm 400V 5A 插件,P=3.5mm Spring Clamp System Terminal Block ROHS"
 			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4573,8 +4614,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C475163"
-			(at 40.64 107.95 0)
+		(property "JLCPCB Part #" "C475163"
+			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,8 +4625,41 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C475163"
-			(at 40.64 107.95 0)
+		(property "LCSC Part" ""
+			(at 58.42 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 58.42 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 58.42 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 58.42 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,111 +4679,6 @@
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
 					(reference "CN1")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 95.25 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f248095-2c54-43cc-82f5-25900062610a")
-		(property "Reference" "D1"
-			(at 95.5675 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS16"
-			(at 95.5675 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 95.25 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3035969.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.22.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJbUlFRR1FYUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXQ1JeSQwSGg0%3D"
-			(at 95.25 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 95.25 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SS16"
-			(at 95.25 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C3035969"
-			(at 95.25 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1730f913-6dd8-4d92-b8bd-3b40e2bc0ec4")
-		)
-		(pin "1"
-			(uuid "22f7a288-b019-402f-b360-52193869665f")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
-					(reference "D1")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -4794,8 +4763,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C182189"
+		(property "JLCPCB Part #" "C182189"
 			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 190.5 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 190.5 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 190.5 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 190.5 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,113 +5072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 137.16 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60c27bf2-d35a-4059-b3d7-f798417a914a")
-		(property "Reference" "C3"
-			(at 133.35 110.8709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 133.35 113.4109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 136.1948 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3001198.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlBZVF1XQlVYVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D"
-			(at 137.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 137.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CS1C100M-CRC54"
-			(at 137.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C3001198"
-			(at 137.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "637a7f3d-f863-4f02-8a3f-84e4a8d2e77d")
-		)
-		(pin "2"
-			(uuid "1233d858-9cda-4521-beef-36c694407bb6")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
-					(reference "C3")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 241.3 78.74 0)
 		(unit 1)
@@ -5332,8 +5238,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19171391"
+		(property "JLCPCB Part #" "C19171391"
 			(at 97.79 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 97.79 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.79 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 97.79 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,113 +5303,6 @@
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
 					(reference "D2")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d5c1dba-fca3-4c9f-aad2-c97a4ba245b3")
-		(property "Reference" "R4"
-			(at 243.84 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 243.84 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54531015.pdf?spm=wm.fly.bg.3.pdf___wm.ssy.tc.0.tz&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJYUlVSQVRbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRllfSQwSGg0%3D"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1RC0402J0104"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C54531015"
-			(at 241.3 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca1492ce-f512-43f0-a968-d7c9687e02d5")
-		)
-		(pin "2"
-			(uuid "61308f32-0249-45a2-8c3d-602a6f8e07e8")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
-					(reference "R4")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -5736,7 +5579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5747,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7393845.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlJYUldRR1NfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707156095942656-C39148.pdf?response-content-disposition=attachment%3B%20filename%3DC39148.pdf%3B%20filename%2A%3DUTF-8%27%27C39148.pdf&x-oss-date=20260806T135728Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=2517fb64824a21928a336f1aaf2288cffa567930e6498f75348cc7e301b3bee0"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5758,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 56pF C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5769,7 +5612,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0402COG560K500AT"
+		(property "MPN" "CL10C560JB8NNNC"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5623,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C7393845"
+		(property "JLCPCB Part #" "C39148"
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5896,7 +5783,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C7598619"
+		(property "JLCPCB Part #" "C7598619"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6006,8 +5937,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C48533097"
+		(property "JLCPCB Part #" "C48533097"
 			(at 146.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 146.05 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 146.05 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +6044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.2952 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6080,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22367826.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=TllWVgFUQVdbBFBfFQANXlFSQAMKUVBSRFVcBlFTEQMxVlNeQ1RZVVFeRlZfVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707190007300096-C15525.pdf?response-content-disposition=attachment%3B%20filename%3DC15525.pdf%3B%20filename%2A%3DUTF-8%27%27C15525.pdf&x-oss-date=20260806T130931Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=be4a6c31b41c95ea5d48b261be70d7b725088ed24d797091e0f2f5cc11fe753b"
 			(at 227.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 227.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +6077,7 @@
 				)
 			)
 		)
-		(property "MPN" "HGC0603R5106K350NTHJ"
+		(property "MPN" "CL05A106MQ5NUNC"
 			(at 227.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6088,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22367826"
+		(property "JLCPCB Part #" "C15525"
+			(at 227.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 227.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 227.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 227.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 227.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6300,6 +6319,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 85.09 69.85 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b16a7c1c-73d4-4efc-8995-333f9bd14f31")
+		(property "Reference" "R2"
+			(at 82.55 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 82.55 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588884762689196032-C149504.pdf?response-content-disposition=attachment%3B%20filename%3DC149504.pdf%3B%20filename%2A%3DUTF-8%27%27C149504.pdf&x-oss-date=20260806T131918Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=0fd6777e60d7a519a0b07066a441c958ba8bd4ed7b2eff7fc92717e0996542e8"
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1003T5E"
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C149504"
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 85.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4916b775-dbba-4a24-a807-b6d413854100")
+		)
+		(pin "2"
+			(uuid "f1af3b2c-1a25-4b94-a90a-9f917e95074c")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
+					(reference "R2")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 187.96 109.22 0)
 		(unit 1)
@@ -6343,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3001198.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlBZVF1XQlVYVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZWSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8603372271729983488-C22383768.pdf?response-content-disposition=attachment%3B%20filename%3DC22383768.pdf%3B%20filename%2A%3DUTF-8%27%27C22383768.pdf&x-oss-date=20260806T181412Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nyKYLaqKhZ3omZbVPliWUPXO1it4D%2BkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb4MwCdU4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkrHmthQytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIBfhwR6KWD5sagAE%2BpMvrbyXf7EJ38xDjC7ZFbb%2FNNH3jT9NKdcy7OmF8HF0fvvQVpLjVl4uLM8Gz4sG4lvoT%2Bh46zeQMZNMsqpuAtHA2Uz0h5bQViUiQbOKRMLC00qSDmELw6beR9vw0UOce%2Fs2g5unz%2FOQPLVpS7nlKiQZOFUXaUSIgtJ8AUmc2fSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZGb8nEwxiKrouTmeZPbNXEUs%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=5513aac3b63e3857cdfd5c1310c2b51f9395a4794c6d11ba98d2c421b6543b1f"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6524,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "-55℃~+105℃ 10uF 25V 4mm 5.4mm ±20% SMD,D4xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +6535,7 @@
 				)
 			)
 		)
-		(property "MPN" "CS1C100M-CRC54"
+		(property "MPN" "VT1E100M0405"
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6376,7 +6546,40 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C3001198"
+		(property "JLCPCB Part #" "C22383768"
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6450,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5448791.pdf"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8554627388276903936-C307331.pdf?response-content-disposition=attachment%3B%20filename%3DC307331.pdf%3B%20filename%2A%3DUTF-8%27%27C307331.pdf&x-oss-date=20260806T130312Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=83d17f8ee92ef045fdc6e9fdf3881a1e597e8b52eac3a06483fe9af4784e8b85"
 			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6461,7 +6664,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6472,7 +6675,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0402X7R104K500AT"
+		(property "MPN" "CL05B104KB54PNC"
 			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6483,8 +6686,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5448791"
-			(at 121.92 49.53 0)
+		(property "JLCPCB Part #" "C307331"
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54920974.pdf?spm=wm.fly.bg.0.pdf___wm.ssy.tc.0.tz&lcsc_vid=TllWVgFUQVdbBFBfFQANXlFSQAMKUVBSRFVcBlFTEQMxVlNeQ1RZU1xfT1lcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706128185413632-C22808.pdf?response-content-disposition=attachment%3B%20filename%3DC22808.pdf%3B%20filename%2A%3DUTF-8%27%27C22808.pdf&x-oss-date=20260806T183154Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nyKYLaqKhZ3omZbVPliWUPXO1it4D%2BkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb4MwCdU4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkrHmthQytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIBfhwR6KWD5sagAE%2BpMvrbyXf7EJ38xDjC7ZFbb%2FNNH3jT9NKdcy7OmF8HF0fvvQVpLjVl4uLM8Gz4sG4lvoT%2Bh46zeQMZNMsqpuAtHA2Uz0h5bQViUiQbOKRMLC00qSDmELw6beR9vw0UOce%2Fs2g5unz%2FOQPLVpS7nlKiQZOFUXaUSIgtJ8AUmc2fSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZGb8nEwxiKrouTmeZPbNXEUs%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=dfb062ea5c0d6f8053f21f21ae28553f4b91e25e84bb1ee116da22b99e549a18"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6568,7 +6815,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-55℃~+155℃ 100mW 150Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6826,7 @@
 				)
 			)
 		)
-		(property "MPN" "HRC0603J151 ENTN"
+		(property "MPN" "0603WAF1500T5E"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6837,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C54920974"
+		(property "JLCPCB Part #" "C22808"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6642,7 +6889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "BC817-25"
 			(at 95.25 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,7 +6913,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+		(property "Datasheet" "-55℃~+150℃ 1 NPN 100 100MHz 100nA 300mW 45V 500mA 5V 700mV NPN SOT-23 Bipolar (BJT) ROHS"
 			(at 90.17 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6711,7 +6958,7 @@
 				)
 			)
 		)
-		(property "MPN" "BC817-25,235"
+		(property "MPN" "BC817-25"
 			(at 90.17 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6722,7 +6969,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C549433"
+		(property "JLCPCB Part #" "C20069154"
 			(at 90.17 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +7034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6798,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7393837.pdf"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707269992677376-C1525.pdf?response-content-disposition=attachment%3B%20filename%3DC1525.pdf%3B%20filename%2A%3DUTF-8%27%27C1525.pdf&x-oss-date=20260806T124522Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=01681343f053e34b64b62f857f1d6e72b0bdf515bb34d4ccb66b39472a0730af"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6809,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6820,7 +7067,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCC0201X7R104K100ZT"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6831,8 +7078,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C7393837"
-			(at 177.8 54.61 0)
+		(property "JLCPCB Part #" "C1525"
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 170.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,6 +7147,152 @@
 					(variant
 						(name "Develop")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 95.25 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccc09660-89d9-4c52-848c-773ac26c6d17")
+		(property "Reference" "D1"
+			(at 95.5675 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 95.5675 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707575901667328-C14996.pdf?response-content-disposition=attachment%3B%20filename%3DC14996.pdf%3B%20filename%2A%3DUTF-8%27%27C14996.pdf&x-oss-date=20260806T134237Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=84ea8d9931df4a734ef492f1ccb3de76992907ed2343a4e952b3f67d93af883c"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 Independent 100V 2A 500uA@100V 850mV@2A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SS210"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C14996"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d240255-ab1b-472d-9983-b215fb7bdba5")
+		)
+		(pin "2"
+			(uuid "e73a4f3c-d832-41d2-889c-22c2570aa003")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
+					(reference "D1")
+					(unit 1)
 				)
 			)
 		)
@@ -7173,6 +7610,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e178f1af-3696-449e-8593-3ad5b591709b")
+		(property "Reference" "R4"
+			(at 243.84 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 243.84 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588884762689196032-C149504.pdf?response-content-disposition=attachment%3B%20filename%3DC149504.pdf%3B%20filename%2A%3DUTF-8%27%27C149504.pdf&x-oss-date=20260806T131918Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=0fd6777e60d7a519a0b07066a441c958ba8bd4ed7b2eff7fc92717e0996542e8"
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1003T5E"
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C149504"
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 241.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c653ec-5914-426e-b56f-32397a8baa27")
+		)
+		(pin "2"
+			(uuid "238a4a1d-9368-44a9-8ee6-653f611eeaf5")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
+					(reference "R4")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 241.3 50.8 0)
 		(unit 1)
@@ -7283,7 +7871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 122.8852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7294,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22367826.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=TllWVgFUQVdbBFBfFQANXlFSQAMKUVBSRFVcBlFTEQMxVlNeQ1RZVVFeRlZfVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707359431741440-C13585.pdf?response-content-disposition=attachment%3B%20filename%3DC13585.pdf%3B%20filename%2A%3DUTF-8%27%27C13585.pdf&x-oss-date=20260806T130955Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=7c825ea4767a4eb4924d0ac0458a6acd07473e9fa2d2dbe6a5010b703d12ab2b"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7305,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF 50V X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7316,7 +7904,7 @@
 				)
 			)
 		)
-		(property "MPN" "HGC0603R5106K350NTHJ"
+		(property "MPN" "CL31A106KBHNNNE"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7327,7 +7915,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22367826"
+		(property "JLCPCB Part #" "C13585"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7351,6 +7983,173 @@
 					(unit 1)
 					(variant
 						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34fe6ab-b82b-4b9b-ad74-804aae21193f")
+		(property "Reference" "C7"
+			(at 223.52 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 223.52 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 220.6752 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8555544417666510848-C59461.pdf?response-content-disposition=attachment%3B%20filename%3DC59461.pdf%3B%20filename%2A%3DUTF-8%27%27C59461.pdf&x-oss-date=20260806T134935Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=c326f904f08e75533aade0b6c116feb5622dbc7aa1ffa4af62386ccaefd697b1"
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MQ8NRNC"
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C59461"
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 219.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04c314fc-9e60-4953-b9ed-b44816c39c1c")
+		)
+		(pin "2"
+			(uuid "a2b493b3-82eb-47e9-80f8-78f106670dc6")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/2fdeceb9-ac6b-4d3f-9ef1-f5e4d55eaa10"
+					(reference "C7")
+					(unit 1)
+					(variant
+						(name "Develop")
+						(field
+							(name "Datasheet")
+							(value "https://www.lcsc.com/datasheet/C6119968.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlVfX1dUQ1FbUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D")
+						)
+						(field
+							(name "Footprint")
+							(value "Capacitor_SMD:C_1210_3225Metric")
+						)
+						(field
+							(name "JLCPCB Part #")
+							(value "C6119968")
+						)
+						(field
+							(name "MPN")
+							(value "CGA1206X5R226M250NT")
+						)
 					)
 				)
 			)
@@ -7468,7 +8267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 202.8952 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7479,7 +8278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C309062.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlVfVlNfT1VbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8555544417666510848-C59461.pdf?response-content-disposition=attachment%3B%20filename%3DC59461.pdf%3B%20filename%2A%3DUTF-8%27%27C59461.pdf&x-oss-date=20260806T134935Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=c326f904f08e75533aade0b6c116feb5622dbc7aa1ffa4af62386ccaefd697b1"
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7490,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7501,7 +8300,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B226KAJNNNE"
+		(property "MPN" "CL10A226MQ8NRNC"
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7512,7 +8311,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C309062"
+		(property "JLCPCB Part #" "C59461"
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7545,7 +8388,7 @@
 							(value "Capacitor_SMD:C_1210_3225Metric")
 						)
 						(field
-							(name "LCSC Part #")
+							(name "JLCPCB Part #")
 							(value "C6119968")
 						)
 						(field
@@ -7579,7 +8422,7 @@
 				)
 			)
 		)
-		(property "Value" "JTD6206-3.3V"
+		(property "Value" "XC6206P332MR-JSM"
 			(at 207.01 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C42443428.pdf"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590929214781157376-C20616640.pdf?response-content-disposition=attachment%3B%20filename%3DC20616640.pdf%3B%20filename%2A%3DUTF-8%27%27C20616640.pdf&x-oss-date=20260806T185149Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nyKYLaqKhZ3omZbVPliWUPXO1it4D%2BkTz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb4MwCdU4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkrHmthQytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIBfhwR6KWD5sagAE%2BpMvrbyXf7EJ38xDjC7ZFbb%2FNNH3jT9NKdcy7OmF8HF0fvvQVpLjVl4uLM8Gz4sG4lvoT%2Bh46zeQMZNMsqpuAtHA2Uz0h5bQViUiQbOKRMLC00qSDmELw6beR9vw0UOce%2Fs2g5unz%2FOQPLVpS7nlKiQZOFUXaUSIgtJ8AUmc2fSAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZGb8nEwxiKrouTmeZPbNXEUs%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=0bf36a91594e869223821150b68a0bcd384c3ce40ce697d4d7b90a96ed0d494d"
 			(at 207.01 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7611,7 +8454,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-25℃~+80℃@(Ta) 1 160mV@(50mA) 250mA 3.3V 40dB@(1kHz) 6.5V 7uA Fixed Over Current Protection、Short Circuit Protection Positive SOT-23-3 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
 			(at 207.01 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7622,18 +8465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JTD(晶泰达)"
-			(at 207.01 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "JTD6206-3.3V"
+		(property "MPN" "XC6206P332MR-JSM"
 			(at 207.01 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7644,7 +8476,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C42443428"
+		(property "JLCPCB Part #" "C20616640"
 			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)

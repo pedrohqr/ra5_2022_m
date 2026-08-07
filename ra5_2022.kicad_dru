@@ -9,3 +9,29 @@
     (condition "A.NetClass == 'USB_90R' && B.NetClass == 'USB_90R'")
     (constraint clearance (min 0.1mm))
 )
+
+# M90E32AS phase voltage-sense dividers (R12/15/18/21, R13/16/19/22,
+# R14/17/20/23): 4x 120k in series + 1k burden per phase. HighVoltage's
+# 2.88mm clearance (480Vrms+20%) is correct at the phase input, but the
+# 0603 divider resistors can't be routed at that spacing, and the actual
+# voltage drops tier by tier down the chain:
+#   after R12/13/14 (net *-Pad2 of R12/13/14): ~432V (300-450V band)
+#   after R15/16/17 (net *-Pad2 of R15/16/17): ~288V (200-300V band)
+#   after R18/19/20 (net *-Pad2 of R18/19/20): ~144V (100-200V band)
+# HV_Tap1/2/3 hold each tier's own clearance value; these rules relax the
+# clearance specifically where a tap net meets the full-voltage HighVoltage
+# class (the default netclass-pair behavior would otherwise force 2.88mm).
+(rule "hv_divider_tap1_clearance"
+    (condition "(A.NetClass == 'HighVoltage' && B.NetClass == 'HV_Tap1') || (A.NetClass == 'HV_Tap1' && B.NetClass == 'HighVoltage')")
+    (constraint clearance (min 2.5mm))
+)
+
+(rule "hv_divider_tap2_clearance"
+    (condition "(A.NetClass == 'HighVoltage' && B.NetClass == 'HV_Tap2') || (A.NetClass == 'HV_Tap2' && B.NetClass == 'HighVoltage')")
+    (constraint clearance (min 1.25mm))
+)
+
+(rule "hv_divider_tap3_clearance"
+    (condition "(A.NetClass == 'HighVoltage' && B.NetClass == 'HV_Tap3') || (A.NetClass == 'HV_Tap3' && B.NetClass == 'HighVoltage')")
+    (constraint clearance (min 0.64mm))
+)

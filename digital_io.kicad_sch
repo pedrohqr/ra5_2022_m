@@ -1333,7 +1333,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C475163"
+			(property "JLCPCB Part #" "C475163"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1525,12 +1525,6 @@
 		(uuid "0c725a38-ae44-4fe3-8b5a-9ee811d02e77")
 	)
 	(junction
-		(at 187.96 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e432574-42b6-4a29-bd82-ebbb3f462e97")
-	)
-	(junction
 		(at 165.1 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1543,16 +1537,28 @@
 		(uuid "6f0fef33-ebf8-455e-be41-66749e561362")
 	)
 	(junction
-		(at 124.46 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eba204d-98ca-442d-9770-8fb03de62405")
-	)
-	(junction
 		(at 124.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3e57ab0-6883-4978-ab4d-4c392f1f380a")
+		(uuid "9c9ef002-4979-4385-99e5-8f020caaa488")
+	)
+	(junction
+		(at 187.96 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a832f3d5-b22e-4d22-8830-a5fccc5ad500")
+	)
+	(junction
+		(at 190.5 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd5bdd5-d493-4604-bcea-d0a1f22bf16f")
+	)
+	(junction
+		(at 190.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd7d988-ecc8-4deb-afd6-b414e41615c1")
 	)
 	(junction
 		(at 106.68 46.99)
@@ -1579,16 +1585,10 @@
 		(uuid "d60ea094-11be-4c18-be83-eb72aa0fda7c")
 	)
 	(junction
-		(at 190.5 102.87)
+		(at 124.46 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de3d0d76-feaa-4c5f-827b-d7a4e5abf234")
-	)
-	(junction
-		(at 190.5 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9ded49-d6ce-414d-9786-ede86b84adf7")
+		(uuid "e1689e04-8b39-420b-ae0d-053e18cde2f5")
 	)
 	(wire
 		(pts
@@ -1642,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 66.04) (xy 187.96 68.58)
+			(xy 187.96 60.96) (xy 187.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 46.99) (xy 187.96 58.42)
+			(xy 187.96 46.99) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2283,8 +2283,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19171391"
+		(property "JLCPCB Part #" "C19171391"
 			(at 199.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 199.39 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 199.39 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 199.39 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,8 +2523,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19171391"
+		(property "JLCPCB Part #" "C19171391"
 			(at 133.35 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 133.35 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 133.35 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,6 +2588,141 @@
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "D11")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 187.96 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c431eb6-b172-49db-ac21-9c12224b35ab")
+		(property "Reference" "Q4"
+			(at 193.04 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817-25"
+			(at 193.04 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "-55℃~+150℃ 1 NPN 100 100MHz 100nA 300mW 45V 500mA 5V 700mV NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BC817-25"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20069154"
+			(at 187.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "256b67c4-097b-4774-a207-54b397d022f4")
+		)
+		(pin "2"
+			(uuid "d799d941-723e-49a0-8f3a-5f4e5b5c627f")
+		)
+		(pin "3"
+			(uuid "0410a227-cada-495e-a069-f54c09affbfe")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "Q4")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -2588,7 +2811,155 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 99.06 121.92 0)
+		(at 180.34 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13f21a69-27ba-4778-a5f1-3a7577373374")
+		(property "Reference" "R71"
+			(at 183.642 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 183.896 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 180.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32416cda-c8b9-4b3b-b414-66072dba2b31")
+		)
+		(pin "2"
+			(uuid "89bd202f-7ec7-465c-a732-bcea6d7ae170")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R71")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 172.72 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2597,9 +2968,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "105eb079-9ab8-4607-8d57-207fa7658009")
-		(property "Reference" "R61"
-			(at 96.52 123.1901 0)
+		(uuid "18a42249-7a6e-4d1b-a6da-78577aea5910")
+		(property "Reference" "R69"
+			(at 175.26 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,8 +2980,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "270R"
-			(at 96.52 120.6501 0)
+		(property "Value" "39k"
+			(at 175.26 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2621,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.076 122.174 90)
+			(at 171.704 60.706 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,8 +3002,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2105700.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlNSQFhZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlhfUFVVTlBADxALGw%3D%3D"
-			(at 99.06 121.92 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706240215273472-C23153.pdf?response-content-disposition=attachment%3B%20filename%3DC23153.pdf%3B%20filename%2A%3DUTF-8%27%27C23153.pdf&x-oss-date=20260806T135224Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=2562dd2beff8c0e44bfd41157228543a19d72e3c4e77f0078e1adca3991e1e6d"
+			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,8 +3013,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 99.06 121.92 0)
+		(property "Description" "-55℃~+155℃ 100mW 39kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,8 +3024,8 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0603270RFKEA"
-			(at 99.06 121.92 0)
+		(property "MPN" "0603WAF3902T5E"
+			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,8 +3035,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2105700"
-			(at 99.06 121.92 0)
+		(property "JLCPCB Part #" "C23153"
+			(at 172.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 172.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 172.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,15 +3091,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "658a265c-efe1-4dd9-82af-3f4d8af99076")
+			(uuid "314cb7af-413e-402c-8eef-347b4c851c86")
 		)
 		(pin "1"
-			(uuid "5fce7020-9bdb-44da-ab48-f9d91c5a69f6")
+			(uuid "3d92b20d-abe0-4e0b-ba2e-0d65601b1c17")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R61")
+					(reference "R69")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -2738,7 +3153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54921034.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVVRWTlRbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706240215273472-C23153.pdf?response-content-disposition=attachment%3B%20filename%3DC23153.pdf%3B%20filename%2A%3DUTF-8%27%27C23153.pdf&x-oss-date=20260806T135224Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nvDensiups3IeYcnXzpjknWM5hnvbqmzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeJb119U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhqhFllXytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMISrBzoKKWD5sagAFlo4xM4wG1NX4WbAoSjGaBclCcf8hwJpnEaE5C1yrc%2FP4Iceq02lLYkEruwC3dRkRDBb6J8a%2FovU%2FAJ2JyLz5piI9pILOBIbfFz2s3iSgXLw5QKZeQQSeK6ayzO21en79JRttexYF%2BB7Kuply4xMR9Qcel34Jyyp7EBIBnie6QuyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZZFSXg5MkEspSBB9rTAMq3Ay%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=2562dd2beff8c0e44bfd41157228543a19d72e3c4e77f0078e1adca3991e1e6d"
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2749,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "-55℃~+155℃ 100mW 39kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2760,7 +3175,7 @@
 				)
 			)
 		)
-		(property "MPN" "HRC0603J393 ENTN"
+		(property "MPN" "0603WAF3902T5E"
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2771,7 +3186,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C54921034"
+		(property "JLCPCB Part #" "C23153"
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2889,7 +3348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26d44949-b4e8-4f77-b270-de7f275b0dc4")
+		(uuid "25aeed0e-e77d-4046-a240-d5a411671923")
 		(property "Reference" "Q5"
 			(at 201.93 67.3099 0)
 			(show_name no)
@@ -2901,7 +3360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "BC817-25"
 			(at 201.93 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +3384,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+		(property "Datasheet" "-55℃~+150℃ 1 NPN 100 100MHz 100nA 300mW 45V 500mA 5V 700mV NPN SOT-23 Bipolar (BJT) ROHS"
 			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2970,7 +3429,7 @@
 				)
 			)
 		)
-		(property "MPN" "BC817-25,235"
+		(property "MPN" "BC817-25"
 			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2981,7 +3440,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C549433"
+		(property "JLCPCB Part #" "C20069154"
 			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2993,13 +3452,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8ffe337-0521-49cd-81a8-dc40185eb7d6")
+			(uuid "dc93fa47-e193-4dbf-9c52-b99e48698ae4")
 		)
 		(pin "2"
-			(uuid "19023e15-89f0-4d9b-87af-d00e9e57fc1a")
+			(uuid "4c335c4f-31c9-4d3c-80a7-d9cdb68acc86")
 		)
 		(pin "3"
-			(uuid "bcf0a324-238a-40e3-a2f7-7821de5c3004")
+			(uuid "74947f19-08b6-4e06-b8c7-e309e8a3daaa")
 		)
 		(instances
 			(project "ra5_2022"
@@ -3015,7 +3474,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 46.99 90)
+		(at 99.06 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3024,29 +3483,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a9d77c8-9c53-4f2e-a2bc-9b4ae3572c26")
-		(property "Reference" "R67"
-			(at 165.1 40.64 90)
+		(uuid "28a481d4-c154-4fdf-aeae-55abefc7775c")
+		(property "Reference" "R61"
+			(at 96.52 123.1901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 165.1 43.18 90)
+		(property "Value" "270R"
+			(at 96.52 120.6501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 165.354 45.974 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.076 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,8 +3517,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 165.1 46.99 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706183852490752-C22966.pdf?response-content-disposition=attachment%3B%20filename%3DC22966.pdf%3B%20filename%2A%3DUTF-8%27%27C22966.pdf&x-oss-date=20260806T132705Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf275ef2be38cef0051836dddda1779555551c31b17705dea799ca7312a5737c"
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3067,8 +3528,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 165.1 46.99 0)
+		(property "Description" "-55℃~+155℃ 100mW 270Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3078,8 +3539,8 @@
 				)
 			)
 		)
-		(property "MPN" "MR08X1002FTL"
-			(at 165.1 46.99 0)
+		(property "MPN" "0603WAF2700T5E"
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3089,8 +3550,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C431835"
-			(at 165.1 46.99 0)
+		(property "JLCPCB Part #" "C22966"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,15 +3606,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "98df74e0-2d78-4d99-ad8e-4d54d0752128")
+			(uuid "ab29c6be-e0f9-4803-b4b8-3f0c87eee7b6")
 		)
 		(pin "1"
-			(uuid "dd25a069-3d75-43fa-8dcf-e3c33ce1c86c")
+			(uuid "222edf7f-3341-4438-9603-0dab2da20e93")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R67")
+					(reference "R61")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -3192,113 +3697,6 @@
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "#PWR098")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 180.34 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33231bce-a891-4e9e-8ff5-346c49efedd5")
-		(property "Reference" "R71"
-			(at 182.88 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 182.88 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 179.324 117.856 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 180.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 180.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MR08X1002FTL"
-			(at 180.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C431835"
-			(at 180.34 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5181efb5-5de6-4bf6-ac09-a8e8101c37f1")
-		)
-		(pin "1"
-			(uuid "dbb3012f-442c-45a1-a2e6-86e1c7f71f67")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R71")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
 				)
 			)
 		)
@@ -3459,8 +3857,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C216707"
+		(property "JLCPCB Part #" "C216707"
 			(at 106.68 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 106.68 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 106.68 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 106.68 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 106.68 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,248 +3922,6 @@
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "D10")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 121.92 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a1d2ee5-bdf5-4c02-9b92-55970780373a")
-		(property "Reference" "Q2"
-			(at 127 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817"
-			(at 127 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 127 109.855 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BC817-25,235"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C549433"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "643613aa-1ba1-450c-b4ed-c1f865185ebf")
-		)
-		(pin "2"
-			(uuid "6767dc0c-827d-47cb-ad87-ad1faba4d0f4")
-		)
-		(pin "3"
-			(uuid "97559451-ead6-4dca-a31b-946150ccffb8")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "Q2")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 121.92 57.15 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c131009-1a8e-435f-943c-b56c4f71dca0")
-		(property "Reference" "R65"
-			(at 124.46 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 124.46 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 120.904 56.896 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MR08X1002FTL"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C431835"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5bcb39f-0a7f-4963-bf1e-faa43e60d77d")
-		)
-		(pin "1"
-			(uuid "89b654de-21aa-4ed7-bf2b-19366a2b1284")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R65")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -3809,6 +4009,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 187.96 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43a1a08e-6bca-4f15-93ad-a4aa7c2f3618")
+		(property "Reference" "R72"
+			(at 191.262 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.516 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da04ac9f-3277-47ac-bdaa-bb0da14f59c1")
+		)
+		(pin "2"
+			(uuid "7b675b7e-e20e-435e-b325-6d57652b6ef6")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R72")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 68.58 0)
 		(unit 1)
@@ -3887,8 +4235,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 187.96 107.95 0)
+		(lib_id "Device:R_US")
+		(at 107.95 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3897,56 +4245,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5892d2a1-d7b6-47ad-bf05-f127cf69ee6d")
-		(property "Reference" "Q4"
-			(at 193.04 106.6799 0)
+		(uuid "56a8018c-b79d-49a2-a0f0-41fc9832c377")
+		(property "Reference" "R51"
+			(at 107.95 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "BC817"
-			(at 193.04 109.2199 0)
+		(property "Value" "1k"
+			(at 107.95 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 193.04 109.855 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 187.96 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 187.96 107.95 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 108.204 106.934 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,8 +4277,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 187.96 107.95 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260806T150729Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rFOdnympt0jrOhYH%2FZkDYmesVpt%2Fzlszz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfMArl1U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmrMWFN3ytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIqm%2FfvKKWD5sagAE9vQD1te593DveLgbVudooxzxYEkEMJfTOL%2B6sfNAMINvW%2BymqlnVinjHRyGWzRVW%2F02jifDTyZ2fvY3AJV04AKlzWRIFmPpT5gk5Q8CkdeGHYTDDhgtxnbqVKZ7qINvzYV%2BMieKxtOEWcrjwTlir52rarHvHhNo1B6yO27Xl8tCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYprcFwDU9qJbYht6svJEX9NQ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e00155f13558d4e8275a2380e1d83d30d10c45a0a46dd286ab6f4b367e1e0234"
+			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,8 +4288,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 187.96 107.95 0)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,8 +4299,8 @@
 				)
 			)
 		)
-		(property "MPN" "BC817-25,235"
-			(at 187.96 107.95 0)
+		(property "MPN" "0402WGF1001TCE"
+			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,8 +4310,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C549433"
-			(at 187.96 107.95 0)
+		(property "JLCPCB Part #" "C11702"
+			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 107.95 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 107.95 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,18 +4366,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c0bc1d1-3a3b-4fbc-9cde-1f6b151b9de3")
+			(uuid "7ad715d7-8edc-4d90-97c0-dd79178d2eb7")
 		)
 		(pin "2"
-			(uuid "f1b7d750-d410-4a1d-8bb4-55362e8ddf23")
-		)
-		(pin "3"
-			(uuid "60e13403-24a7-4867-8cbd-e5a41f151e97")
+			(uuid "626c0629-7ff1-4810-8355-c98088bb445f")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "Q4")
+					(reference "R51")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -4023,7 +4385,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 173.99 107.95 270)
+		(at 173.99 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4032,8 +4394,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b4d4fbf-da00-455e-8b04-be72997dfb05")
-		(property "Reference" "R70"
+		(uuid "5d5b8c09-3b19-4ff5-a594-87e3c162d64c")
+		(property "Reference" "R52"
 			(at 173.99 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 173.99 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,8 +4415,159 @@
 				)
 			)
 		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 174.244 106.934 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579705924159586304-C11702.pdf?response-content-disposition=attachment%3B%20filename%3DC11702.pdf%3B%20filename%2A%3DUTF-8%27%27C11702.pdf&x-oss-date=20260806T150729Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rFOdnympt0jrOhYH%2FZkDYmesVpt%2Fzlszz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfMArl1U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmrMWFN3ytHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIqm%2FfvKKWD5sagAE9vQD1te593DveLgbVudooxzxYEkEMJfTOL%2B6sfNAMINvW%2BymqlnVinjHRyGWzRVW%2F02jifDTyZ2fvY3AJV04AKlzWRIFmPpT5gk5Q8CkdeGHYTDDhgtxnbqVKZ7qINvzYV%2BMieKxtOEWcrjwTlir52rarHvHhNo1B6yO27Xl8tCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYprcFwDU9qJbYht6svJEX9NQ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=e00155f13558d4e8275a2380e1d83d30d10c45a0a46dd286ab6f4b367e1e0234"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 173.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 173.99 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 173.99 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 173.99 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9211f229-cc14-4c69-87f8-1516aa5923e2")
+		)
+		(pin "2"
+			(uuid "60d6b61a-b212-4650-b468-53629dff26c0")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R52")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6255441b-6836-49ac-92c9-c76c0a89dd75")
+		(property "Reference" "R73"
+			(at 162.56 123.1901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270R"
+			(at 162.56 120.6501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.736 108.966 90)
+			(at 166.116 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,8 +4577,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVVJWRVJaUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 173.99 107.95 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706183852490752-C22966.pdf?response-content-disposition=attachment%3B%20filename%3DC22966.pdf%3B%20filename%2A%3DUTF-8%27%27C22966.pdf&x-oss-date=20260806T132705Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf275ef2be38cef0051836dddda1779555551c31b17705dea799ca7312a5737c"
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,8 +4588,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 173.99 107.95 0)
+		(property "Description" "-55℃~+155℃ 100mW 270Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4086,8 +4599,8 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603J102 TS"
-			(at 173.99 107.95 0)
+		(property "MPN" "0603WAF2700T5E"
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,8 +4610,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907113"
-			(at 173.99 107.95 0)
+		(property "JLCPCB Part #" "C22966"
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,15 +4666,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "06c726f0-36d4-4983-8921-0431c8672b9d")
+			(uuid "41b1ca0b-1f80-46fc-a07a-41218917d500")
 		)
 		(pin "1"
-			(uuid "0bcee10e-a13b-41c7-9098-e865fd368136")
+			(uuid "9ee12860-c473-4159-af23-ce1a6266923b")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R70")
+					(reference "R73")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -4180,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 0.75 1 18~22 2 2P 3.5mm 400V 5A 插件,P=3.5mm Spring Clamp System Terminal Block ROHS"
 			(at 50.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4213,7 +4770,51 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C475163"
+		(property "JLCPCB Part #" "C475163"
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 50.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4331,8 +4932,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19171391"
+		(property "JLCPCB Part #" "C19171391"
 			(at 165.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 172.72 60.96 180)
+		(at 99.06 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4370,32 +5015,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72a83677-10d1-4395-9000-8157ab50e05f")
-		(property "Reference" "R69"
-			(at 175.26 59.6899 0)
+		(uuid "7442831d-16e5-4a0c-8fca-fecb4f9c0cd5")
+		(property "Reference" "R60"
+			(at 97.79 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "39k"
-			(at 175.26 62.2299 0)
+		(property "Value" "10k"
+			(at 100.076 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.704 60.706 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,8 +5047,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54921034.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVVRWTlRbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 172.72 60.96 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,8 +5058,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 172.72 60.96 0)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,8 +5069,8 @@
 				)
 			)
 		)
-		(property "MPN" "HRC0603J393 ENTN"
-			(at 172.72 60.96 0)
+		(property "MPN" "0402WGF1002TCE"
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,8 +5080,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C54921034"
-			(at 172.72 60.96 0)
+		(property "JLCPCB Part #" "C25744"
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,16 +5091,60 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "a5c50aa1-adcb-4178-9cf3-1f353228f05b")
+		(property "LCSC Part" ""
+			(at 99.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 99.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 99.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 99.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "9a6b4db3-fd0a-49c4-8060-fa0567890a87")
+			(uuid "2b9661a6-01f7-4c6c-8acb-8730b65c8135")
+		)
+		(pin "2"
+			(uuid "6537d7ab-d218-493b-a2fe-eb66b48e346b")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R69")
+					(reference "R60")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -4541,6 +5227,157 @@
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "#PWR093")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 199.39 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79a4895f-24df-43c2-8810-a02357c08503")
+		(property "Reference" "R68"
+			(at 196.85 52.0701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270R"
+			(at 196.85 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.406 51.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706183852490752-C22966.pdf?response-content-disposition=attachment%3B%20filename%3DC22966.pdf%3B%20filename%2A%3DUTF-8%27%27C22966.pdf&x-oss-date=20260806T132705Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf275ef2be38cef0051836dddda1779555551c31b17705dea799ca7312a5737c"
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 270Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF2700T5E"
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22966"
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 199.39 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3e002f8-aa1d-497d-ab34-ac4e9a4c1a99")
+		)
+		(pin "1"
+			(uuid "a4c7cd6b-6385-479a-9f18-56134661e64c")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R68")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
 				)
 			)
 		)
@@ -4645,8 +5482,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C162734"
+		(property "JLCPCB Part #" "C162734"
 			(at 203.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 203.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 203.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 203.2 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 203.2 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,248 +5638,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 130.81 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9768be97-8ef2-42c0-ac51-abd70c701a0e")
-		(property "Reference" "Q3"
-			(at 135.89 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817"
-			(at 135.89 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.89 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BC817-25,235"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C549433"
-			(at 130.81 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5372fd1a-8a68-4004-8c69-ba82aceccba0")
-		)
-		(pin "2"
-			(uuid "70bff6aa-fe78-4ab1-9d0f-e04136c3b6fa")
-		)
-		(pin "3"
-			(uuid "8186b87c-846d-4e32-82d0-4641cd16e80a")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "Q3")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 199.39 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9af29555-bfcf-4764-97f1-ca4507ac321f")
-		(property "Reference" "R73"
-			(at 201.93 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "270R"
-			(at 201.93 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.374 50.546 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2105700.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlNSQFhZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlhfUFVVTlBADxALGw%3D%3D"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RCS0603270RFKEA"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2105700"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4eaa09c5-689c-499e-a0b4-5f11a62ca962")
-		)
-		(pin "1"
-			(uuid "7b5df48d-dbbb-4150-a4f9-4952b8540a5c")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R73")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4004")
 		(at 137.16 107.95 270)
 		(unit 1)
@@ -5098,8 +5737,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C162734"
+		(property "JLCPCB Part #" "C162734"
 			(at 137.16 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 137.16 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 137.16 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,113 +5809,6 @@
 							(name "Footprint")
 							(value "Diode_SMD:D_SOD-123F")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 165.1 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9df40ab1-6012-4c75-8458-24b82463eab7")
-		(property "Reference" "R68"
-			(at 162.56 123.1901 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "270R"
-			(at 162.56 120.6501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.116 122.174 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2105700.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlNSQFhZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlhfUFVVTlBADxALGw%3D%3D"
-			(at 165.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 165.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RCS0603270RFKEA"
-			(at 165.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2105700"
-			(at 165.1 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fef814f5-e971-4cce-be54-a347361cb2c8")
-		)
-		(pin "1"
-			(uuid "c7c0a3bd-d735-482d-b7a2-458a7f85404b")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R68")
-					(unit 1)
-					(variant
-						(name "Develop")
 					)
 				)
 			)
@@ -5292,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 0.75 1 18~22 2 2P 3.5mm 400V 5A 插件,P=3.5mm Spring Clamp System Terminal Block ROHS"
 			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5325,8 +5901,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C475163"
-			(at 50.8 87.63 0)
+		(property "JLCPCB Part #" "C475163"
+			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,8 +5912,41 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C475163"
-			(at 50.8 87.63 0)
+		(property "LCSC Part" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 50.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 50.8 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,8 +5975,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 187.96 62.23 180)
+		(lib_id "Transistor_BJT:BC817")
+		(at 130.81 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5376,31 +5985,56 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c100c11c-bf91-48f9-a73a-c715d92a6e43")
-		(property "Reference" "R72"
-			(at 190.5 60.9599 0)
+		(uuid "b0ce666a-4ead-43f7-8198-8348ce43465b")
+		(property "Reference" "Q3"
+			(at 135.89 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 190.5 63.4999 0)
+		(property "Value" "BC817-25"
+			(at 135.89 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 186.944 61.976 90)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 135.89 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "-55℃~+150℃ 1 NPN 100 100MHz 100nA 300mW 45V 500mA 5V 700mV NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,8 +6044,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 187.96 62.23 0)
+		(property "Sim.Device" "NPN"
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,8 +6055,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 187.96 62.23 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,8 +6066,8 @@
 				)
 			)
 		)
-		(property "MPN" "MR08X1002FTL"
-			(at 187.96 62.23 0)
+		(property "MPN" "BC817-25"
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,8 +6077,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C431835"
-			(at 187.96 62.23 0)
+		(property "JLCPCB Part #" "C20069154"
+			(at 130.81 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,17 +6087,168 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "b7cc7604-12c4-43ac-a0ca-4348f3c4300a")
 		)
 		(pin "1"
-			(uuid "ed2cd5cc-6039-4ff5-a9c8-834f9c4bd811")
+			(uuid "d42b7112-8022-4c2f-b689-e10b843389eb")
+		)
+		(pin "2"
+			(uuid "7290e52a-66e1-4048-b19d-e3daf5a17c11")
+		)
+		(pin "3"
+			(uuid "23ff69fa-1143-423a-a7b6-e22c012131af")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R72")
+					(reference "Q3")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be449832-696d-4ecc-8066-dc9c6fdba7fb")
+		(property "Reference" "R67"
+			(at 163.83 43.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.116 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1308e080-1796-47ab-9ba7-6bc40b67c6da")
+		)
+		(pin "2"
+			(uuid "f25b12e2-0b44-49c6-87f2-32e47f9ca056")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R67")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -5561,8 +6346,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19171391"
+		(property "JLCPCB Part #" "C19171391"
 			(at 99.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 99.06 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 99.06 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 99.06 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 99.06 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,8 +6420,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 99.06 46.99 90)
+		(lib_id "Transistor_BJT:BC817")
+		(at 121.92 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5601,29 +6430,56 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9058e1f-89e7-4cc0-8731-fa9533dc63ca")
-		(property "Reference" "R60"
-			(at 99.06 40.64 90)
+		(uuid "d156dbee-a00a-4d5e-b1d1-7795080954b4")
+		(property "Reference" "Q2"
+			(at 127 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 99.06 43.18 90)
+		(property "Value" "BC817-25"
+			(at 127 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 99.314 45.974 90)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 127 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "-55℃~+150℃ 1 NPN 100 100MHz 100nA 300mW 45V 500mA 5V 700mV NPN SOT-23 Bipolar (BJT) ROHS"
+			(at 121.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,8 +6489,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 99.06 46.99 0)
+		(property "Sim.Device" "NPN"
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,8 +6500,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 99.06 46.99 0)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,8 +6511,8 @@
 				)
 			)
 		)
-		(property "MPN" "MR08X1002FTL"
-			(at 99.06 46.99 0)
+		(property "MPN" "BC817-25"
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,8 +6522,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C431835"
-			(at 99.06 46.99 0)
+		(property "JLCPCB Part #" "C20069154"
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,17 +6532,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "ef474d8d-791f-48cb-94d2-21ab3c29593b")
 		)
 		(pin "1"
-			(uuid "56058424-8df4-4c03-9709-cc1ce1a1a309")
+			(uuid "1f40827b-74c6-41fc-9f5c-2d3b2681db70")
+		)
+		(pin "2"
+			(uuid "7c554c42-b819-433d-a2c5-ef22427185a1")
+		)
+		(pin "3"
+			(uuid "04ae0d06-fda8-4323-b3e0-35e836cd6d55")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R60")
+					(reference "Q2")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -5705,33 +6564,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9db819f-2614-44d1-84bf-c3fb42235f26")
+		(uuid "e29dbb7c-4d8b-4111-8188-a8e17d06ccf0")
 		(property "Reference" "R64"
-			(at 116.84 116.8399 0)
+			(at 117.602 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 116.84 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 113.284 117.856 90)
-			(hide yes)
+			(at 117.856 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5740,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C431835.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.7.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlxVQVlYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5751,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
 			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5762,7 +6607,7 @@
 				)
 			)
 		)
-		(property "MPN" "MR08X1002FTL"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5773,7 +6618,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C431835"
+		(property "MPN" "0402WGF1002TCE"
 			(at 114.3 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5784,16 +6629,219 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "48193e2e-cb33-496a-87da-a57c0397b876")
+		(property "JLCPCB Part #" "C25744"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6cdee64f-c83d-438a-be69-1d3983e99a14")
+			(uuid "e9902a34-712e-4938-9f11-833d7949659c")
+		)
+		(pin "2"
+			(uuid "4cbd943f-903e-450c-906b-c0953f6ee70f")
 		)
 		(instances
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "R64")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 121.92 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4e0dcba-c88d-40bd-8827-0642d96dd1e7")
+		(property "Reference" "R65"
+			(at 125.222 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.476 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7e55de4-1743-4f78-969b-697c19fbb287")
+		)
+		(pin "2"
+			(uuid "0e4ddf46-02ef-4479-ac24-d58c26887ea7")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R65")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -5880,8 +6928,52 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C216707"
+		(property "JLCPCB Part #" "C216707"
 			(at 172.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 172.72 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 172.72 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 172.72 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,6 +6993,157 @@
 			(project "ra5_2022"
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "D14")
+					(unit 1)
+					(variant
+						(name "Develop")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe10f6e-8726-4078-b708-f644b7e8457e")
+		(property "Reference" "R66"
+			(at 130.81 52.0701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "270R"
+			(at 130.81 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.366 51.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579706183852490752-C22966.pdf?response-content-disposition=attachment%3B%20filename%3DC22966.pdf%3B%20filename%2A%3DUTF-8%27%27C22966.pdf&x-oss-date=20260806T132705Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=cf275ef2be38cef0051836dddda1779555551c31b17705dea799ca7312a5737c"
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 270Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF2700T5E"
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22966"
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 133.35 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97bd0dc2-4b4a-4cb8-ae8d-3749b0e1d847")
+		)
+		(pin "1"
+			(uuid "e7a3ce2a-2e42-439d-8fb3-f02aa2990733")
+		)
+		(instances
+			(project "ra5_2022"
+				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
+					(reference "R66")
 					(unit 1)
 					(variant
 						(name "Develop")
@@ -6061,218 +7304,6 @@
 				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
 					(reference "#PWR097")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb3b1ee5-e62c-4c12-af10-fe49671c0883")
-		(property "Reference" "R66"
-			(at 135.89 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "270R"
-			(at 135.89 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.334 50.546 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2105700.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVlNSQFhZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRlhfUFVVTlBADxALGw%3D%3D"
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RCS0603270RFKEA"
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2105700"
-			(at 133.35 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7b41c704-4d77-4be2-9c51-c36eb544c71b")
-		)
-		(pin "1"
-			(uuid "38126b6f-1c44-43d6-8ceb-1f334727737d")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R66")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 107.95 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feb01ed8-d794-4265-9876-188ccf384895")
-		(property "Reference" "R63"
-			(at 107.95 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 107.95 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.696 108.966 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907113.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=FFEPX1NQFFNeVldfQ1RbUFRUTwdeA1FeQFQLAVVeRgUxVlNeQlNbVVJWRVJaUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FRC0603J102 TS"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2907113"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "574b0ef2-f8d8-446e-9656-e875e399ff72")
-		)
-		(pin "1"
-			(uuid "6538f7bc-2dfc-46be-9bec-6a59f979732a")
-		)
-		(instances
-			(project "ra5_2022"
-				(path "/5cbb1e83-2d68-46fe-9857-942ec50591ae/452b8f5a-797d-4028-91e0-40fe10fe98ae/e63d4085-d8ed-4bd8-89a9-c028138b1121"
-					(reference "R63")
-					(unit 1)
-					(variant
-						(name "Develop")
-					)
 				)
 			)
 		)

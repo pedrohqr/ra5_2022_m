@@ -528,6 +528,60 @@
       },
       {
         "bus_width": 12,
+        "clearance": 2.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HV_Tap1",
+        "pcb_color": "rgb(230, 170, 0)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HV_Tap2",
+        "pcb_color": "rgb(230, 170, 0)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.64,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HV_Tap3",
+        "pcb_color": "rgb(230, 170, 0)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -546,7 +600,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 2.0,
+        "clearance": 2.88,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -598,7 +652,35 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(R12-Pad2)": [
+        "HV_Tap1"
+      ],
+      "Net-(R13-Pad2)": [
+        "HV_Tap1"
+      ],
+      "Net-(R14-Pad2)": [
+        "HV_Tap1"
+      ],
+      "Net-(R15-Pad2)": [
+        "HV_Tap2"
+      ],
+      "Net-(R16-Pad2)": [
+        "HV_Tap2"
+      ],
+      "Net-(R17-Pad2)": [
+        "HV_Tap2"
+      ],
+      "Net-(R18-Pad2)": [
+        "HV_Tap3"
+      ],
+      "Net-(R19-Pad2)": [
+        "HV_Tap3"
+      ],
+      "Net-(R20-Pad2)": [
+        "HV_Tap3"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -777,7 +859,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -820,6 +902,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -843,7 +943,7 @@
           "visible": false
         },
         {
-          "name": "LCSC Part #",
+          "name": "JLCPCB Part #",
           "url": false,
           "visible": false
         }
@@ -881,7 +981,7 @@
         "uuid": "5cbb1e83-2d68-46fe-9857-942ec50591ae"
       }
     ],
-    "used_designators": "#PWR1-108,Y1,P1,L1-3,JP1,R1-79,SW3,USB1,J1-4,CN1-5,#SYM1,H1,C1-44,U1-12,D1-19,Q1-6",
+    "used_designators": "P1,L1-3,JP1,R1-79,SW3,USB1,J1-4,CN1-5,Q1-6,U1-12,D1-19,C1-44,#SYM1,H1,Y1,#PWR1-108",
     "variants": [
       {
         "name": "Develop"
