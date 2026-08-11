@@ -1,31 +1,39 @@
-# RA5 2022 M — Placa Base (Raptor)
+# RA5 2022 M — Base Board (Raptor)
 
-Placa base/carrier de um CLP (Controlador Lógico Programável) modular: um
-front-end de I/O que não tem MCU principal próprio — os periféricos de
-sensoriamento e medição são controlados por um cartão MCU+modem LTE plugado
-no soquete M.2 Key-E (`J1`, visível nas fotos), seguindo o padrão mecânico
-M.2 mas com pinagem própria (3.3V nativo, sem relação com um cartão M.2 real).
+Base/carrier board for a modular PLC (Programmable Logic Controller): an I/O
+front-end with no main MCU of its own — sensing and metering peripherals are
+driven by a separate MCU+LTE modem card that plugs into the onboard M.2
+Key-E socket (`J1`, visible in the photos below). The socket follows the M.2
+mechanical form factor but uses a custom pinout (native 3.3V logic) — it is
+not meant to accept an off-the-shelf M.2 card. The pluggable MCU+modem card
+itself now lives in its own separate repository, developed independently
+from this base board.
 
-Principais blocos presentes na placa:
+Main blocks on this board:
 
-- **Alimentação**: entrada via módulo `B0303S-1W`, buck `TPS54202DDC`,
-  regulador linear `AMS1117-3.3` (trilho USB) e conector USB-C de
-  passthrough para flash/debug do cartão MCU.
-- **2x entradas analógicas 4-20mA** (diferenciais) via ADC `ADS1115`.
-- **2x entradas e 2x saídas digitais** condicionadas por opto/divisor e
-  transistor, respectivamente.
-- **Medidor de energia trifásico `ATM90E32AS`**, em domínio galvanicamente
-  isolado (`GND2`/`VDD2`) do resto da placa.
-- **MCU de housekeeping `STM8S003F3P`**, fazendo a ponte I2C dos sinais de
-  I/O digital.
-- Terminais parafusáveis `KF250-3.5-2P-2` para os laços de corrente e
-  demais conexões de campo.
+- **Power**: input via the `B0303S-1W` isolated DC-DC module, `TPS54202DDC`
+  buck regulator, `AMS1117-3.3` linear regulator (USB rail), and a USB-C
+  connector that passes through to `J1` for flashing/debugging the plugged-in
+  MCU card.
+- **2x differential 4-20mA analog inputs** via an `ADS1115` I2C ADC.
+- **2x digital inputs and 2x digital outputs**, opto/divider-conditioned and
+  transistor-driven respectively.
+- **`ATM90E32AS` three-phase energy meter**, in a galvanically isolated
+  domain (`GND2`/`VDD2`) from the rest of the board, bridged via the
+  `ISO7741N1-Y` digital isolator (SPI) and a `CS817X20LS`-family isolator
+  (power-mode select).
+- **`STM8S003F3P` housekeeping MCU**, reading/driving the digital I/O signals
+  and intended to expose them over the shared I2C bus on `J1`.
+- `KF250-3.5-2P-2` screw terminals for the current loops and other
+  field-side connections.
 
-## Renders da placa finalizada
+## Renders of the finished board
 
-![Vista 1 da placa](view/view1.png)
-*Vista geral do lado dos componentes: soquete M.2 (`J1`), USB-C, terminais
-parafusáveis e conectores de campo nas laterais.*
+![Board view 1](view/view1.png)
+*Component-side view: the M.2 socket (`J1`) in the center, screw terminals
+and field connectors along the edges, and the row of MOVs/varistors feeding
+the energy-meter current inputs.*
 
-![Vista 2 da placa](view/view2.png)
-*Vista girada ~180°, mostrando o mesmo lado a partir do ângulo oposto.*
+![Board view 2](view/view2.png)
+*Same side, rotated ~180°, showing the USB-C connector, the STM8
+housekeeping MCU, and the power section.*

@@ -1,3 +1,0 @@
-[submodule "ra5_shield_modem/third_party/M.2-Card-Footprints"]
-	path = ra5_shield_modem/third_party/M.2-Card-Footprints
-	url = https://github.com/timonsku/M.2-Card-Footprints.git

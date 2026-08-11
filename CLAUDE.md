@@ -19,13 +19,13 @@ When editing schematics/PCB, treat the `.kicad_sch`/`.kicad_pcb`/`.kicad_pro` fi
 
 ## Architecture: base board + M.2 modem shield
 
-This project (formerly planned as a separate "RA5 2044" revision) is now split across **two sibling KiCad projects in this same repo**, connected mechanically/electrically through an M.2 Key-E socket:
+This project is the **base/carrier board** of a two-board system: a CLP (Controlador Lógico Programável / PLC) I/O front-end. No MCU of its own beyond a small housekeeping controller (see STM8 below) — its sensor/metering peripherals are meant to be driven by whatever card is plugged into the M.2 socket (`J1`, in `mcu.kicad_sch`):
 
-- **`ra5_2022`** (this project) — the **base/carrier board**: a CLP (Controlador Lógico Programável / PLC) I/O front-end. No MCU of its own beyond a small housekeeping controller (see STM8 below) — its sensor/metering peripherals are meant to be driven by whatever card is plugged into the M.2 socket (`J1`, in `mcu.kicad_sch`):
-  - 2x differential 4-20mA analog inputs → **ADS1115** (I2C ADC), in `analog_io.kicad_sch`
-  - 2x digital inputs + 2x digital outputs, in `digital_io.kicad_sch`
-  - **ATM90E32AS** three-phase energy meter, isolated (`GND2`/`VDD2` domain) via `ISO7741N1-Y` (SPI) and `CS817X20LS` (`PM0`/`PM1`), in `m90e32as.kicad_sch`
-- **`ra5_shield_modem/`** — a **separate KiCad project** (sibling directory, own `.kicad_pro`) for the pluggable card: an MCU + LTE modem (module TBD), built to the M.2 Key-E mechanical form factor so it plugs into `J1`. Uses the `timonsku/M.2-Card-Footprints` submodule (see below) as a template for the card-edge outline/keying. Shares the `ra5_2022` parts library (see "Sharing this library with sibling projects").
+- 2x differential 4-20mA analog inputs → **ADS1115** (I2C ADC), in `analog_io.kicad_sch`
+- 2x digital inputs + 2x digital outputs, in `digital_io.kicad_sch`
+- **ATM90E32AS** three-phase energy meter, isolated (`GND2`/`VDD2` domain) via `ISO7741N1-Y` (SPI) and `CS817X20LS` (`PM0`/`PM1`), in `m90e32as.kicad_sch`
+
+The pluggable MCU+LTE modem card that plugs into `J1` (an MCU built to the M.2 Key-E mechanical form factor) now lives in **its own separate repository** (`ra5_shield_modem`) rather than as a sibling project in this repo — it was removed from here on 2026-08-11.
 
 ### The M.2 socket is a custom pinout, not a real Key-E device
 
@@ -75,15 +75,11 @@ Notes on this script:
 - It must be run with `--output` as an **absolute** path (a known bug in `easyeda2kicad` 1.0.1 breaks `--project-relative` when `--output` is relative), even though the resulting library entries are stored project-relative.
 - `.easyeda_cache/` is the local cache for this tool and is gitignored (regenerable); the `libraries/` directory itself must always be committed.
 
-### Sharing this library with sibling projects
+### Sharing this library with other projects
 
-Other KiCad projects that live alongside this one (e.g. `ra5_shield_modem/`, a shield PCB for this board) reuse the same `ra5_2022` library rather than duplicating it. Their `sym-lib-table`/`fp-lib-table` register it via `${KIPRJMOD}/../libraries/...` (relative to the sibling project's own directory).
+Other KiCad projects that are not part of this repo (e.g. the now-separate `ra5_shield_modem` repo, a shield PCB for this board) can still reuse the same `ra5_2022` library rather than duplicating it, by registering it in their own `sym-lib-table`/`fp-lib-table` with an absolute or relative path to this repo's `libraries/` directory (note: `${KIPRJMOD}`-relative paths only work while the library lived inside this repo as a sibling directory — an external repo must use a different relative path or an absolute one).
 
-3D models are the one part of this that is **not** portable across projects: each `.kicad_mod` in `libraries/ra5_2022.pretty/` hardcodes its model path as `${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/...` — `RA5_2022_LIB` is a KiCad environment variable (set per-machine via Preferences → Configure Paths, or in `~/.config/kicad/<version>/kicad_common.json` under `environment.vars`), not a project variable, because `${KIPRJMOD}` always resolves to whichever project is currently open and would break 3D previews in any project other than `ra5_2022` itself. Anyone opening `ra5_2022` or a sibling project on a new machine needs `RA5_2022_LIB` set to the absolute path of this repo's root for 3D models to resolve.
-
-### Third-party library submodules
-
-Sibling projects can also pull in external KiCad libraries as git submodules under their own directory, e.g. `ra5_shield_modem/third_party/M.2-Card-Footprints` (from [timonsku/M.2-Card-Footprints](https://github.com/timonsku/M.2-Card-Footprints.git)), registered in that project's `fp-lib-table`/`sym-lib-table` via `${KIPRJMOD}/third_party/<name>/...`. Because this repo uses submodules, a fresh clone must run `git clone --recurse-submodules` (or, after a plain clone, `git submodule update --init --recursive`) or these library directories will be empty and KiCad will report missing footprints/symbols.
+3D models are the one part of this that is **not** portable across machines: each `.kicad_mod` in `libraries/ra5_2022.pretty/` hardcodes its model path as `${RA5_2022_LIB}/libraries/ra5_2022.3dshapes/...` — `RA5_2022_LIB` is a KiCad environment variable (set per-machine via Preferences → Configure Paths, or in `~/.config/kicad/<version>/kicad_common.json` under `environment.vars`). Anyone opening `ra5_2022` or a project that reuses its library on a new machine needs `RA5_2022_LIB` set to the absolute path of this repo's root for 3D models to resolve.
 
 ## Net classes
 
