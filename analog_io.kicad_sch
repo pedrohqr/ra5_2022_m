@@ -3135,7 +3135,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 54.6089 62.1424 180)
+		(at 54.61 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3145,7 +3145,7 @@
 		(dnp no)
 		(uuid "827e2bf6-5fe8-44da-981f-b6de29c57808")
 		(property "Reference" "R56"
-			(at 57.9109 60.8724 0)
+			(at 57.912 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3155,7 +3155,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 58.1649 63.1584 0)
+			(at 58.166 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8556212101494185984-C25744.pdf?response-content-disposition=attachment%3B%20filename%3DC25744.pdf%3B%20filename%2A%3DUTF-8%27%27C25744.pdf&x-oss-date=20260806T132247Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vRCez81Ix7jordMUX8hWIHT%2B55vKfcqDz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbMSmV5U4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkqsV8sOKnSgc5lCkRRYwGs1287ugXlSQzo890KPDAEovaKCnZ2ZSfh7Y4sNknI6i%2Bfc2Se2MIkIPW%2FsfaKWD5sagAEqVCQAL2QfAkO1%2BFQWQNgiyzdWFNst5LvhtKwzmogNxZ0zScnTgMdQHsK7xeDbh4uAh3U9G%2BurY3qhE2Ms6P52SHhCkPtqK1%2FrMZDol1gdFGu2FkajMNNLWkrjzopG2cg0YncyekG4N26y4k3hyApM7Y5VgCcb%2B2%2BIYOkDJbJJZiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXdBVH9SZ9H63cMabRCaUSbwJ%2F20260806%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=18a9af57d3a21a3be94a75ea6d5e0857f607d3389e658fe9e592a63e7ed7c757"
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3187,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3198,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3231,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,7 +3253,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 54.6089 62.1424 0)
+			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

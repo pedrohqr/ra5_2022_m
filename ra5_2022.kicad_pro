@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 0.65,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 1,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.2,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -62,8 +62,8 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.1,
+          "pad_connection": 0,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -162,7 +162,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.05,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -582,7 +582,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.22,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -600,7 +600,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 2.88,
+        "clearance": 2.62,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -635,7 +635,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.1,
         "diff_pair_width": 0.262,
         "name": "USB_90R",
@@ -782,6 +782,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -981,7 +982,7 @@
         "uuid": "5cbb1e83-2d68-46fe-9857-942ec50591ae"
       }
     ],
-    "used_designators": "P1,L1-3,JP1,R1-79,SW3,USB1,J1-4,CN1-5,Q1-6,U1-12,D1-19,C1-44,#SYM1,H1,Y1,#PWR1-108",
+    "used_designators": "P1,JP1-4,SW3,L1-3,R1-79,J1-4,USB1,CN1-5,Q1-6,U1-12,D1-19,C1-44,#SYM1,H1,Y1,#PWR1-108",
     "variants": [
       {
         "name": "Develop"

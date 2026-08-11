@@ -23,3 +23,12 @@ _restore_backup_*/
 
 # Estado local do Claude Code (worktrees, sessoes)
 .claude/
+
+# Saidas geradas por plugins de fabricacao (Fabrication Toolkit, footprint placement)
+production/
+gerber_to_order/
+*-all-pos.csv
+fabrication-toolkit-options.json
+place_footprints.ini
+place_footprints.log
+*.round-tracks-config

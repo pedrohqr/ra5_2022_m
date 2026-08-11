@@ -3993,6 +3993,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 137.16 113.03 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4002,7 +4003,7 @@
 		(dnp no)
 		(uuid "21e1f595-8c39-4bb1-8181-3781b7487c04")
 		(property "Reference" "C41"
-			(at 140.97 110.8709 0)
+			(at 133.35 110.8709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +4014,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 140.97 113.4109 0)
+			(at 133.35 113.4109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4025,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 138.1252 116.84 0)
+			(at 136.1948 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +8141,7 @@
 						)
 						(field
 							(name "Footprint")
-							(value "Capacitor_SMD:C_1210_3225Metric")
+							(value "Capacitor_SMD:C_0603_1608Metric")
 						)
 						(field
 							(name "JLCPCB Part #")
@@ -8322,50 +8323,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 201.93 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 201.93 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 201.93 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 201.93 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "83a3889b-876f-45d1-b937-aa8373e7e065")
 		)
@@ -8385,7 +8342,7 @@
 						)
 						(field
 							(name "Footprint")
-							(value "Capacitor_SMD:C_1210_3225Metric")
+							(value "Capacitor_SMD:C_0603_1608Metric")
 						)
 						(field
 							(name "JLCPCB Part #")
